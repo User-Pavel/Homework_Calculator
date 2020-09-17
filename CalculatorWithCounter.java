@@ -48,7 +48,6 @@ public class CalculatorWithCounter {
 
     public double resultPow(double numberPow1,double numberPow2){
         this.countOperation++;
-        Math.pow(numberPow1,numberPow2);
-        return numberPow1;
+        return Math.pow(numberPow1,numberPow2);
     }
 }
